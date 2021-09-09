@@ -5,8 +5,7 @@
         <v-col cols="12" md="4" sm="4" class="ml-4">
           <v-list-item-avatar tile size="200" color="grey">
             <v-img
-              src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
-            ></v-img>
+              :src="require(`../assets/images/profile_img.png`)"></v-img>
           </v-list-item-avatar>
           <v-row>
             <v-col>
